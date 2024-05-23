@@ -14,13 +14,13 @@ struct IgniteWebsite {
     }
 }
 
-struct ExampleSite: Site {    
-    var name = "Hello World"
-    var baseTitle = " – My Awesome Site"
+struct ExampleSite: Site {
+    var name = "genshi's profile"
+    var baseTitle = ""
     var url = URL("https://www.example.com")
     var builtInIconsEnabled = true
 
-    var author = "John Appleseed"
+    var author = "genshi"
 
     var homePage = Home()
     var theme = MyTheme()
