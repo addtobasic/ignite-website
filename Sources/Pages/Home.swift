@@ -6,12 +6,25 @@ struct Home: StaticPage {
 
     func body(context: PublishingContext) -> [BlockElement] {
         var elements: [BlockElement] = []
-        elements.append(Text("Kano Genki").font(.title1))
-        elements.append(Spacer())
-        elements.append(Image("/images/genshi1.jpg", description: "genshi's icon.").resizable().frame(width: 150, height: 150))
-        elements.append(Spacer())
-        elements.append(contentsOf: ProfileComponent().render(context: context))
-        elements.append(contentsOf: StudyingComponent().render(context: context))
+        
+        // Header: Name and Icon
+        elements.append(contentsOf: HeaderComponent().render(context: context))
+        
+        // Affiliation
+        elements.append(contentsOf: AffiliationComponent().render(context: context))
+        
+        // Education
+        elements.append(contentsOf: EducationsComponent().render(context: context))
+        
+        // Interests
+        elements.append(contentsOf: InterestsComponent().render(context: context))
+        
+        // Work Experience
+        elements.append(contentsOf: WorkExperiencesComponent().render(context: context))
+        
+        // Other Experience
+        elements.append(contentsOf: OtherExperiencesComponent().render(context: context))
+        
         return elements
     }
 }

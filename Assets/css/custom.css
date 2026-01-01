@@ -1,0 +1,68 @@
+/* Apple-inspired minimal design inspired by peruki.dev */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1d1d1f;
+    background-color: #ffffff;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+}
+
+section {
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 12px;
+    padding-left: 0;
+    line-height: 1.6;
+}
+
+ul li::before {
+    content: none;
+}
+
+ul li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: #0071e3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section borders */
+section {
+    border-top: 1px solid #e5e5e7;
+}
+
+section:first-child {
+    border-top: none;
+}
+
+/* Social media icon links */
+a[href*="x.com"]:hover,
+a[href*="github.com"]:hover,
+a[href*="bsky.app"]:hover {
+    opacity: 1 !important;
+}
+
+/* Header component styling */
+section:first-child {
+    text-align: center;
+}
+
