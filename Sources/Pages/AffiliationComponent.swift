@@ -9,7 +9,7 @@ struct AffiliationComponent {
                     .font(.title2)
                     .style("font-size: 24px; font-weight: 600; margin-bottom: 12px;")
                 
-                Text("School of Complex Intelligent Systems, Future University Hakodate")
+                Text("Information Design Course, Department of Media Architecture, School of Systems Information Science, Future University Hakodate")
                     .font(.body)
                     .style("font-size: 16px; font-weight: 400; line-height: 1.6;")
             }
