@@ -66,3 +66,33 @@ section:first-child {
     text-align: center;
 }
 
+/* Column layout: 37% left, 63% right */
+.row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+/* Skip header section (first section without border-top in inline style) */
+.row[style*="border-top"] > .col:first-child {
+    flex: 0 0 36% !important;
+    max-width: 36% !important;
+}
+
+.row[style*="border-top"] > .col:last-child {
+    flex: 0 0 64% !important;
+    max-width: 64% !important;
+}
+
+/* Mobile responsive: stack columns vertically on small screens */
+@media (max-width: 768px) {
+    .row[style*="border-top"] > .col:first-child,
+    .row[style*="border-top"] > .col:last-child {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .row[style*="border-top"] > .col:first-child {
+        margin-bottom: 16px;
+    }
+}
+

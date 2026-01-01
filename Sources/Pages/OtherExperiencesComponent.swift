@@ -12,6 +12,19 @@ struct OtherExperiencesComponent {
                 List {
                     Group {
                         Text {
+                            Link("GMO DESIGN AWARD 2025", target: "https://gmo-design-award.com/works/002.html")
+                                .target(.blank)
+                                .style("color: #0071e3; text-decoration: none;")
+                            " UX & プロダクトイノベーション賞"
+                        }
+                        .style("line-height: 1.4; margin: 0;")
+                        Text("Dec. 2025")
+                            .style("color: #86868b; font-size: 14px; display: block; margin-top: 2px; line-height: 1.3;")
+                    }
+                    .style("margin: 0; padding: 0;")
+
+                    Group {
+                        Text {
                             Link("SPAJAM2025", target: "https://spajam.jp/result/?id=7")
                                 .target(.blank)
                                 .style("color: #0071e3; text-decoration: none;")
@@ -19,6 +32,19 @@ struct OtherExperiencesComponent {
                         }
                         .style("line-height: 1.4; margin: 0;")
                         Text("Dec. 2025")
+                            .style("color: #86868b; font-size: 14px; display: block; margin-top: 2px; line-height: 1.3;")
+                    }
+                    .style("margin: 0; padding: 0;")
+
+                    Group {
+                        Text {
+                            Link("GOOD DESIGN NEW HOPE AWARD 2025", target: "https://newhope.g-mark.org/award/2025/25NHA040014.html")
+                                .target(.blank)
+                                .style("color: #0071e3; text-decoration: none;")
+                            " 仕組みのデザイン 入選"
+                        }
+                        .style("line-height: 1.4; margin: 0;")
+                        Text("Nov. 2025")
                             .style("color: #86868b; font-size: 14px; display: block; margin-top: 2px; line-height: 1.3;")
                     }
                     .style("margin: 0; padding: 0;")
