@@ -11,7 +11,7 @@ struct EducationsComponent {
                 
                 List {
                     Group {
-                        Text("School of Complex Intelligent Systems, Future University Hakodate")
+                        Text("Information Design Course, Department of Media Architecture, School of Systems Information Science, Future University Hakodate")
                             .style("line-height: 1.4; margin: 0;")
                         Text("Apr. 2023 - Present")
                             .style("color: #86868b; font-size: 14px; display: block; margin-top: 2px; line-height: 1.3;")
