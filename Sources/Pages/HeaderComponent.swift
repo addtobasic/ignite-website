@@ -15,7 +15,7 @@ struct HeaderComponent {
                 Group {
                     Text("genshi / Genki Kano")
                         .font(.body)
-                        .style("font-size: 16px; font-weight: 400; color: #86868b; margin-right: 8px;")
+                        .style("font-size: 24px; font-weight: 600; color: #1d1d1f; margin-bottom: 8px;")
                 }
                 .style("display: flex; justify-content: center; align-items: center;")
 
