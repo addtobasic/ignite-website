@@ -2,7 +2,7 @@ import Foundation
 import Ignite
 
 struct Home: StaticPage {
-    var title = "Kano Genki"
+    var title = "addtobasic.dev"
 
     func body(context: PublishingContext) -> [BlockElement] {
         var elements: [BlockElement] = []

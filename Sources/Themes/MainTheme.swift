@@ -6,6 +6,7 @@ struct MyTheme: Theme {
         HTML {
             Head(for: page, in: context) {
                 MetaLink(href: "/css/custom.css", rel: "stylesheet")
+                MetaLink(href: "/images/genshi1.jpg", rel: "icon")
             }
 
             Body {
