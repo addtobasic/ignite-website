@@ -15,10 +15,7 @@ struct Home: StaticPage {
         
         // Education
         elements.append(contentsOf: EducationsComponent().render(context: context))
-        
-        // Interests
-        elements.append(contentsOf: InterestsComponent().render(context: context))
-        
+
         // Work Experience
         elements.append(contentsOf: WorkExperiencesComponent().render(context: context))
         
