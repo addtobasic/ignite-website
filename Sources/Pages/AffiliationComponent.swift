@@ -10,11 +10,7 @@ struct AffiliationComponent {
                     .style("font-size: 24px; font-weight: 600; margin-bottom: 12px;")
 
                 Group {
-                    Text("Information Design Course, Department of Media Architecture, School of Systems Information Science, Future University Hakodate")
-                        .font(.body)
-                        .style("font-size: 16px; font-weight: 400; line-height: 1.6; margin-bottom: 16px;")
-
-                    Text("pixiv Inc.<br>Comic Division, Palcy Section, Palcy Unit")
+                    Text("pixiv Inc.")
                         .font(.body)
                         .style("font-size: 16px; font-weight: 400; line-height: 1.6;")
                 }
