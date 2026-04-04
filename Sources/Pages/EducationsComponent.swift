@@ -13,7 +13,7 @@ struct EducationsComponent {
                     Group {
                         Text("Information Design Course, Department of Media Architecture, School of Systems Information Science, Future University Hakodate")
                             .style("line-height: 1.4; margin: 0;")
-                        Text("Apr. 2023 - Present")
+                        Text("Apr. 2023 - Mar. 2026")
                             .style("color: #86868b; font-size: 14px; display: block; margin-top: 2px; line-height: 1.3;")
                     }
                     .style("margin: 0; padding: 0;")
