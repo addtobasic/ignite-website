@@ -11,9 +11,16 @@ struct WorkExperiencesComponent {
                 
                 List {
                     Group {
+                        Text("pixiv Inc. Full-time")
+                            .style("line-height: 1.4; margin: 0;")
+                        Text("Apr. 2026 - Present")
+                            .style("color: #86868b; font-size: 14px; display: block; margin-top: 2px; line-height: 1.3;")
+                    }
+                    .style("margin: 0; padding: 0;")
+                    Group {
                         Text("pixiv Inc. Part-time Job")
                             .style("line-height: 1.4; margin: 0;")
-                        Text("Sep. 2023 - Present")
+                        Text("Sep. 2023 - Mar. 2026")
                             .style("color: #86868b; font-size: 14px; display: block; margin-top: 2px; line-height: 1.3;")
                     }
                     .style("margin: 0; padding: 0;")
